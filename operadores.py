@@ -1,28 +1,21 @@
+from math import pow, sqrt
 def soma(a, b):
-    so = a + b
-    return so
+    return a + b
 def subtracao(a, b):
-    su = a - b
-    return su
+    return a - b
 def multiplicacao(a, b):
-    mu = a * b
-    return mu
+    return a * b
 def divisao(a, b):
     if b  == 0:
         return 'Divisão por 0 não pode!'
-    di = a / b
-    return di
+    else:
+        return a / b
 def potencia(a, b):
-    from math import pow
-    po = pow(a, b)
-    return po
+    return pow(a, b)
 def raiz(a):
-    from math import sqrt
-    r = sqrt(a)
-    return r
+    return sqrt(a)
 def divinteira(a, b):
     if b  == 0:
         return 'Divisão por 0 não pode!'
-    divi = a // b
-    return divi
-
+    else:
+        return a // b
