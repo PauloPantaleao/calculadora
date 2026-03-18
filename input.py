@@ -38,9 +38,8 @@ while True:
             print(f'A potência de {primeironum} elevado por {segundonum} é {operadores.potencia(primeironum, segundonum)}')
         else:
             print('ERRO.')
-    decidir = ' '
     escrita.line()
-    while decidir not in 'SN':
+    while decidir not in ['S', 'N']:
         decidir = str(input('Deseja continuar[S/N]?'))[0].upper()
     if decidir == 'N':
         escrita.line()
