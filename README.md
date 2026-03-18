@@ -1,0 +1,3 @@
+- Meu primeiro projeto
+- calculadora primitiva com majoritariamente funções personalizadas
+- terminal interativo(ou quase)
