@@ -8,6 +8,8 @@ def multiplicacao(a, b):
     mu = a * b
     return mu
 def divisao(a, b):
+    if b  == 0:
+        return 'Divisão por 0 não pode!'
     di = a / b
     return di
 def potencia(a, b):
@@ -19,6 +21,8 @@ def raiz(a):
     r = sqrt(a)
     return r
 def divinteira(a, b):
+    if b  == 0:
+        return 'Divisão por 0 não pode!'
     divi = a // b
     return divi
 
