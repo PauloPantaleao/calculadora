@@ -50,6 +50,7 @@ while True:
         escrita.line()
         escrita.title('REINICIANDO...')
         sleep(2)
+        del decidir
         continue
 escrita.line()
 escrita.title('FIM')
